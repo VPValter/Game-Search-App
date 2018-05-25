@@ -1,0 +1,64 @@
+@media(min-width:992px) {
+  #result img {
+    height:300px;
+  }
+}
+
+body {
+	color: #fff;
+	background-color: #222;
+}
+
+.jumbotron, .list-group-item {
+	background-color: #303030;
+}
+
+.col-sm-4 {
+	padding: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#result img {
+	height: 240px;
+}
+
+h2, h5, .list-group {
+	padding: 5px 0;
+}
+
+#game, .jumbotron, form {
+	margin-top: 3vh;
+}
+
+#game img {
+	width: 100%;
+}
+
+.btn {
+	margin: 5px 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #375a7f;
+  border-color: #375a7f;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2b4764;
+  border-color: #28415b;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #00bc8c;
+  background-color: transparent;
+}
+
+.btn-link:hover {
+  color: #007053;
+  background-color: transparent;
+  border-color: transparent;
+}
