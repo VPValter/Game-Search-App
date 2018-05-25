@@ -22,7 +22,7 @@ function getGames(searchText) {
 			output += '<h3>No games found!</h3>';
 			$('#result').html(output);
 		} else {
-			$.map(games, function(game) {			// map or each - difference ?
+			$.map(games, function(game) {			// .map() translates all items in an array or object to new array of items.
 				output += `
 				<div class="col-sm-4 col-md-3">
 		            <img class="img-fluid" src="${game.image.small_url}">
@@ -43,7 +43,7 @@ function getGames(searchText) {
 function gameSelected(id) {
 	sessionStorage.setItem('gameID', id);
 	window.location.assign('game.html');
-	return false;									// WHY?
+	return false;
 }
 
 function getGame() {
@@ -58,7 +58,6 @@ function getGame() {
 	})
 	.done(function(data){
 		let game = data.results;
-		console.log(game);
 		let output = `
 			<div class="row">
 	    		<div class="col-md-4">
