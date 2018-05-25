@@ -9,3 +9,5 @@
 ## Future plans:
 - [ ] Figuring out pagination, since the AJAX request only shows first 10 results.
 
+### View live using GitHub Pages:
+https://vpvalter.github.io/Game-Search-App/
