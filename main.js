@@ -72,7 +72,7 @@ function getGame() {
 	    				<li id="themes" class="list-group-item"><strong>Themes: </strong></li>
 	    				<li id="devs" class="list-group-item"><strong>Developers: </strong></li>
 	    				<li id="pubs" class="list-group-item"><strong>Publishers: </strong></li>
-	    				<li id="release" class="list-group-item"><strong>Expected release year: </strong></li>
+	    				<li id="release" class="list-group-item"></li>
 	    			</ul>
 	    			<a href="${game.site_detail_url}" target="_blank" class="btn btn-primary">View on Giantbomb</a>
 		            <a href="index.html" class="btn btn-link">Go Back To Search</a>
@@ -121,10 +121,12 @@ function getGame() {
 				$('li#pubs').append(game.publishers[i].name + '; ');
 			}
 		}
-		if (game.expected_release_year == null) {
-			$('li#release').append('N/A');
+		if (game.expected_release_year !== null) {
+			$('li#release').append('<strong>Expected release year: </strong>' + game.expected_release_year);
+		} else if (game.original_release_date !== null) {
+			$('li#release').append('<strong>Original release date: </strong>' + game.original_release_date);
 		} else {
-			$('li#release').append(game.expected_release_year);
+			$('li#release').append('N/A');
 		}
 	})
 	.fail(function() {
