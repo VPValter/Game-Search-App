@@ -1,6 +1,6 @@
 # Game Search App
 
-* Connects to the Giantbomb video game database API and retrieves data using **jQuery.ajax()** method.
+* Connects to the Giantbomb video game database API and retrieves data using the **jQuery.ajax()** method.
 * Uses **JSONP** format because of CORS.
 * Includes a *search* feature, passing the selected result to a new page using *sessionStorage*, and showing more *details* about the selected item.
 * Populates the HTML elements using **jQuery**.

@@ -126,7 +126,7 @@ function getGame() {
 		} else if (game.original_release_date !== null) {
 			$('li#release').append('<strong>Original release date: </strong>' + game.original_release_date);
 		} else {
-			$('li#release').append('N/A');
+			$('li#release').append('<strong>Release date: </strong>N/A');
 		}
 	})
 	.fail(function() {
