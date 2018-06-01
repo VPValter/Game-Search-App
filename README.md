@@ -11,3 +11,5 @@
 
 ### View live using GitHub Pages:
 https://vpvalter.github.io/Game-Search-App/
+
+*Day 42 of my #100DaysOfCode challenge*
