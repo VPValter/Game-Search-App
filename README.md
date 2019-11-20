@@ -8,6 +8,7 @@
 
 ## Future plans:
 ~~- [ ] Figuring out pagination, since it only shows first 10 results.~~
+
 **I have a new version of this project done in React instead.**
 
 ### View live using GitHub Pages:
