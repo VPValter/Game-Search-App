@@ -1,4 +1,4 @@
-# Game Search App
+# Game Search App - jQuery version
 
 * Connects to the Giantbomb video game database API and retrieves data using the **jQuery.ajax()** method.
 * Uses **JSONP** format because of CORS.
@@ -9,7 +9,7 @@
 ## Future plans:
 ~~- [ ] Figuring out pagination, since it only shows first 10 results.~~
 
-**I have a new version of this project done in React instead.**
+**I have a new version of this project done in React instead:** https://github.com/VPValter/React-Game-Search
 
 ### View live using GitHub Pages:
 https://vpvalter.github.io/Game-Search-App/
